@@ -1,0 +1,114 @@
+header
+{  
+  background-color: #545445;
+  position: fixed;
+  height: 180px;
+  width:62%;
+  overflow: hidden;
+}
+header img
+{
+  width:120px;
+  height: 120px;
+  padding: 0 10px 0px 25px; 
+  margin-top: 25px; 
+}
+
+header h3
+{
+   font-size: 30px;
+   text-align: center;   
+   padding-top: 30px;
+   font-style: italic;
+   padding-left: 5%; 
+   margin-left: 50%;  
+}
+header h4
+{
+  float: center;
+  font-style: italic;
+  font-size: 20px;
+ margin-top: 55%;
+ padding-left: 90%;
+}
+  
+header input
+{
+  width: 70%;
+  height: 35px; 
+  border-style: 1px solid black;
+  border-radius: 20px;
+  margin-left:  8%;
+  margin-bottom: 10%;
+  float: left;
+}
+#go
+{
+  width: 50px;
+  height: 30px;
+  text-align: center;
+}
+nav
+{
+    margin-top:10px;
+    margin-left: -10px;
+    height: 50px;
+    background-color: #e3e3e3;
+}
+nav:hover
+{
+  font-size: 20px;
+  text-decoration: underline;  
+}
+nav li
+{
+  display: inline;
+  padding-right: 10px;
+  margin-top: 10%;
+  padding-top: 50%;
+}
+nav li:after
+{
+  content: '\|';
+  padding-left: 2%;
+}
+nav li:last-child:after
+{
+  content: none;
+}
+#hero
+{
+  width:100%;
+  height:350px;
+}
+#sect_part img
+{
+  width:120px;
+  height: 120px;
+  margin-left: 75px;
+}
+#sect_part p
+{
+  padding-left: 20px;  
+}
+aside img
+{
+   width:10%;
+}
+footer
+{
+  background-color: #5c5c3d;
+}
+footer p
+{
+  text-align: center;
+}
+.sect
+{
+  margin-top: 12%;  
+  padding: 2px ;  
+}
+#view
+{
+  background-color: white;  
+}

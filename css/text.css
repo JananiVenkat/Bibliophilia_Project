@@ -1,0 +1,172 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+  font: 13px/1.5 "Helvetica Neue", Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", Menlo, Consolas, monospace;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  clear: both;
+  height: 0;
+}
+
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset,
+figure {
+  margin-bottom: 20px;
+}
+/* Header part*/
+header
+{  
+  position: fixed;
+  height: 180px;
+  width:62%;
+  overflow: hidden;
+}
+header img
+{
+
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-top: 0px;
+
+}
+
+header h3
+{
+   font-size: 45px;
+   text-align: center;   
+   padding-top: 30px;
+}
+header h4
+{
+  float: right;
+  margin-right: 5%;
+  font-style: italic;
+  padding-bottom: 0px;
+  font-size: 20px;
+}
+header input
+{
+  width: 50%;
+  height: 35px;
+  float: center;
+  border-style: 1px solid black;
+  border-radius: 20px;
+  padding-left: 25px;
+  margin-left: 25px;
+}
+nav
+{
+  background-color: #999900;
+  height: 50px;
+}
+nav:hover
+{
+  font-size: 20px;
+  text-decoration: underline;  
+}
+nav li
+{
+  display: inline;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+#hero
+{
+  width:100%;
+  height:350px;
+}
+
+#sect_part img
+{
+  width:120px;
+  height: 120px;
+  margin-left: 75px;
+}
+#sect_part p
+{
+  padding-left: 20px;
+}
+aside img
+{
+   width:10%;
+}
+footer
+{
+  background-color: #5c5c3d;
+}
+footer p
+{
+  text-align: center;
+}
+
