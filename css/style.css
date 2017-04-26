@@ -12,15 +12,22 @@ header
   margin-left: 10px;
   
 }
+header>section>h3
+{
+  text-align:center;
+  padding-right:42px;
+  color: white;
+  margin-top: 10px;
+}
 #header-logo
 {
   width:120px;
   height: 120px;
   padding: 0 10px 0px 25px; 
-  margin-top: 25px; 
+  margin-top: 15px; 
 }
 
-#heading
+header>section>h1
 {
    font-size: 30px;
    text-align: center;   
@@ -37,7 +44,7 @@ header
   border-style: 1px solid black;
   border-radius: 20px;
   margin-left:  8%;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   padding-left: 10px;
  }
 #click-search
@@ -165,10 +172,18 @@ nav li:last-child:after
   width: 300px;height: 252px;
   margin-top: 10px;  
  }
+ article>section>h5
+ {
+  float: left;
+ }
+ article>section>h5:after
+ {
+  content: ':';
+ }
  .quotes-align
  {
   margin-top: 10px;
-  padding-top: 25px;
+  padding-top: 32px;
  }
  .quotes-align p:before 
  {
@@ -178,16 +193,16 @@ nav li:last-child:after
  {
   content: '\"';
  }
- #author-name p
+ .author-name p
  {
   float: right;
   padding-right: 10px;
  }
- #author-name p:before
+ .author-name p:before
  {
   content: '\~';
  }
- #author-name p:after
+ .author-name p:after
  {
   content: none;
  }
