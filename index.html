@@ -3,87 +3,102 @@
 <head>
 	<title>The First Web Site</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/text.css"/>
-	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-	<link rel="stylesheet" type="text/css" href="css/960.css"/>
+	<link rel="stylesheet" type="text/css" href="lib/text.css"/>
+	<link rel="stylesheet" type="text/css" href="lib/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="lib/960.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
-<body class="container_12">
-<article class="grid_12">
+<body>
+
+<!--Header Part-->
+<section class="container_12">
 	<header>
-	<section class="grid_2">
-		<img src="Images/Bookslogo.jpg" alt="Book logo"/>
-	</section>
-	<section class="grid_5">
-		<h3>Bibliophilia</h3><br>
-		<input type="search" id="search" placeholder="search books"/>
-		<input type="button" id="go" value="Go" />
-	</section>	
-	<section class="grid_3">	
-		<h4>Login/Register</h4>
+		<section class="grid_3">
+			<img src="Images/Bookslogo.jpg" id="header-logo" alt="Book logo"/>
 		</section>
-	</header><br><br><br><br><br><br><br>
-	<section class="grid_12">
-	<nav>
+		<section class="grid_5">
+			<h1 id="heading">Bibliophilia</h1><br>
+			<input type="search" id="search" placeholder="search books"/>
+			<input type="button" id="click-search" value="Go" />
+		</section>	
+		<section class="grid_3">				
+			<ul id="login-reg">
+				<li><a href="#">Signin</a></li>
+				<li><a href="#">Register</a></li>
+			</ul>
+		</section>	
+			<nav class="grid_12">
+	
 		<ul>
-			<li>Business & Manangement</li>
-			<li>Academic/TextBooks</li>
-			<li>Competitive Exams</li>
-			<li>Health & Cooking</li>
-			<li>Literature/Fiction</li>
+			<li><a href="#">Business & Manangement</a></li>
+			<li><a href="#">Academic/TextBooks</a></li>
+			<li><a href="#">Competitive Exams</a></li>
+			<li><a href="#">Health & Cooking</a></li>
+			<li><a href="#">Literature/Fiction</a></li>
 		</ul>
-	</nav>
-	</section>
-</article>
+	</nav>		
+	</header>
+</section>	
+
+	
+
+
+<!--Hero Part-->
 <article>
-	<section class="grid_12">
 		<img src="Images/AdBook.jpg" id="hero" alt="advertisement"/>
-	</section>
 </article>
-<article class="view grid_12">
-	<article id="sect_part">
-		<section class="grid_4 alpha"><br>
-			<h3>Indian Authors</h3><br>
-			<img src="Images/IndianBook.jpg" alt="Book Cover"/><br>	<br>
+
+<!--Main Article-->
+
+	<section class ="sect-align container_12">
+		<article class="grid_4 alpha">
+			<h3>Indian Authors</h3>
+			<img src="Images/IndianBook.jpg" alt="Book Cover"/>
 			<p>The Immortals of Meluha is the first novel of the Shiva trilogy series by Amish Tripathi. The story is set in the land of Meluha and starts with the arrival of the Shiva. The Meluhans believe that Shiva is their fabled saviour Neelkanth.</p>
-		</section>
-		<section class="grid_4"><br>
-			<h3>International Authors</h3><br>
-			<img src="Images/interbookcover.jpeg" alt="International book cover"/><br><br>
+		</article>
+		<article class="grid_4">
+			<h3>International Authors</h3>
+			<img src="Images/interbookcover.png" alt="International book cover"/>
 			<p>Life Without Limits: Inspiration for a Ridiculously Good Life, was published by Random House in 2010 and has been translated into more than 30 languages.He markets a DVD for young people titled No Arms, No Legs, No Worries!.</p>
-		</section>
-		<section class="grid_4 omega"><br>
-			<h3>Best Sellers</h3><br>
-			<img src="Images/BestCover.jpg" alt="Best cover book"/><br><br>
-			<p>The Whistler is a novel by John Grisham.It is a legal thriller about Florida Board on Judicial Conduct investigator Lacy Stoltz.</p>
-		</section>
+		</article>
+		<article class="grid_4 omega">
+			<h3>Best Sellers</h3>
+			<img src="Images/BestCover.jpg" alt="Best cover book"/>
+			<p>The Whistler is a novel by John Grisham.It is a legal thriller about Florida Board on Judicial Conduct investigator Lacy Stoltz.The plot centers on the legal and moral problems involved in Native American gaming. </p>
+		</article>
+	</section>
+        
+<!--Sub Article-->
+<section class="sect-align container_12">
+	<article class="grid_6 alpha ">
+		<h3>New Release</h3>
+		<img src="Images/NewRelease.jpg" alt="New Release cover photo"/>		
+		<p>Everything is about to change. Until this moment, Sal has always been certain of his place with his adoptive gay father and their loving Mexican-American family.</p>
 	</article>
-</article>           
-<article class="view grid_12"><hr>
-	<section class="grid_5"><br>
-		<h3>New Release</h3><br>
-		<img src="Images/NewRelease.jpg" alt="New Release cover photo"/><br><br>	
-		
-	</section>
-	<section class="grid_5">
-	<section class="sect">
-		<h3>Upcoming Offers</h3>
-		<p>Minimum 50% OFF on used books</p>		
-	</section>	
-	<section class="sect">
-		<h3>Indian Languages</h3>		
-	</section>
-	<section class="sect">
-		<ul>
-			<li>Pre-Orders</li>
-			<li>Used Books</li>
-		</ul>
-	</section>
-	</section>
-</article>
-<article>
-	<footer class="grid_12">
-		<section class="grid_4">			
+	<article class="grid_6 omega gridCol-align">
+		<h3>Motivational Quotes</h3>
+			<section class="quotes-align">
+				<blockquote>
+					<p>Whenever you read a good book, somewhere in the world a door opens to allow in more light.
+		    		</p>
+				</blockquote>
+			</section>
+			<section class="quotes-align">
+				<blockquote>
+					<p>Always read something that will make you look good if you die in the middle of it.</p>
+				</blockquote>
+			</section>
+			<section class="quotes-align">
+				<blockquote>
+					<p>Books serve to show a man that those original thoughts of his aren’t very new after all.</p>
+				</blockquote>	
+			</section>	
+	</article>
+</section>
+
+<!--Footer part-->
+	<footer class="footer-bg container_12">
+		<section class="grid_4 alpha">			
 				<ul>
 				<li><h3>Customer Support</h3></li>
 					<li>Shipping</li>
@@ -101,7 +116,7 @@
 			</ul>
 		</section>
 
-		<section class="grid_3">			
+		<section class="grid_4 omega">			
 			<ul>
 			<li><h3>Get To Know</h3></li>
 				<li>Career</li>
@@ -113,6 +128,6 @@
 			<p>&copy;copyright Bibiliopholia.com</p>			
 		</section>
 	</footer>
-</article>
+
 </body>
 </html>

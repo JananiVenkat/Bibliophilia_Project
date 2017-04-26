@@ -1,12 +1,18 @@
+body
+{
+  font-family: sans-serif;
+
+}
 header
 {  
   background-color: #545445;
   position: fixed;
   height: 180px;
-  width:62%;
-  overflow: hidden;
+  width:940px;
+  margin-left: 10px;
+  
 }
-header img
+#header-logo
 {
   width:120px;
   height: 120px;
@@ -14,25 +20,17 @@ header img
   margin-top: 25px; 
 }
 
-header h3
+#heading
 {
    font-size: 30px;
    text-align: center;   
    padding-top: 30px;
    font-style: italic;
    padding-left: 5%; 
-   margin-left: 50%;  
+   color: white;
 }
-header h4
-{
-  float: center;
-  font-style: italic;
-  font-size: 20px;
- margin-top: 55%;
- padding-left: 90%;
-}
-  
-header input
+
+#search
 {
   width: 70%;
   height: 35px; 
@@ -40,37 +38,69 @@ header input
   border-radius: 20px;
   margin-left:  8%;
   margin-bottom: 10%;
-  float: left;
-}
-#go
+  padding-left: 10px;
+ }
+#click-search
 {
   width: 50px;
   height: 30px;
   text-align: center;
+  margin:10px;
+  border-radius: 7px;
+
 }
-nav
+#login-reg
 {
-    margin-top:10px;
-    margin-left: -10px;
-    height: 50px;
-    background-color: #e3e3e3;
-}
-nav:hover
-{
+  float: left;
+  font-style: italic;
   font-size: 20px;
-  text-decoration: underline;  
+  margin-top: 50%;
+  margin-right: 0px;
+  padding-left: 20%;  
+  display: inline;
 }
-nav li
+#login-reg li
 {
   display: inline;
-  padding-right: 10px;
-  margin-top: 10%;
-  padding-top: 50%;
 }
+#login-reg a
+{
+  color: white;  
+}
+#login-reg li :after
+{
+  content: '\/';
+  padding-left: 2px;
+}
+#login-reg li:last-child:after
+{
+  content: none;
+}
+
+nav
+{
+  margin-left:0px;
+  margin-top: 10px;
+} 
+  
+nav li
+{
+  display: inline; 
+  color: red; 
+
+} 
+  
+nav li a:hover
+{
+  background-color: grey;
+  font-size: 20px;
+  color: white;
+}
+
 nav li:after
 {
+  padding-left: 8px;
   content: '\|';
-  padding-left: 2%;
 }
 nav li:last-child:after
 {
@@ -80,35 +110,82 @@ nav li:last-child:after
 {
   width:100%;
   height:350px;
+  margin-top: 15%;
+  margin-left: 10px;
+
 }
-#sect_part img
+.sect-align
+{
+  background-color: #b3cccc;
+  border:1px solid #1f2e2e;
+  border-radius: 8px;
+  display: block;
+  margin-top: 0px;
+  height: 450px;
+  width: 940px;
+  margin-left: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+.sect-align h3
+{
+  font-size: 20px;
+  margin-left: 10px;
+  padding-left: 50px;
+  margin-top: 10px;  
+}
+
+
+.sect-align img
 {
   width:120px;
   height: 120px;
   margin-left: 75px;
+  margin-top: 10px;
 }
-#sect_part p
+.sect-align p
 {
-  padding-left: 20px;  
+  padding-left: 20px;
+  margin-top: 10px;  
 }
-aside img
+.sect1-align
 {
-   width:10%;
-}
-footer
+  margin-top: 0px;
+  float: right;
+  margin-right: 2px;
+  margin-bottom: 20px;
+ }
+ .gridCol-align
+ {
+  width: 300px;height: 252px;
+  margin-top: 10px;  
+ }
+ .quotes-align
+ {
+  margin-top: 10px;
+  padding-top: 10px;
+ }
+ .quotes-align p:before 
+ {
+  content: '\"';
+ }
+.quotes-align p:after 
+ {
+  content: '\"';
+ }
+.footer-bg
 {
   background-color: #5c5c3d;
+  height: 180px;
+  width: 940px;
+  margin-left: 10px;
+  border-radius: 8px;
+  margin: auto;
 }
 footer p
 {
   text-align: center;
+  margin-top: 12px;
 }
-.sect
-{
-  margin-top: 12%;  
-  padding: 2px ;  
-}
-#view
-{
-  background-color: white;  
-}
+
+
