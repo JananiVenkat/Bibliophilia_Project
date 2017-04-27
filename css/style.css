@@ -5,6 +5,7 @@ body
   margin-top: 0px;
   padding-top: 0px;
 }
+/*Header Part*/
 header
 {  
   background-color: #545445;
@@ -63,6 +64,9 @@ section>h2
   padding-left: 20%; 
   color: #80ffff;
 }
+/*End of the header part*/
+
+/*nav part*/
 nav
 {
   width: 100%;
@@ -103,6 +107,9 @@ nav li:last-child:after
 {
   content: none;
 }
+/*End of nav part*/
+
+/*Hero part*/
 #hero
 {
   width:100%;
@@ -112,6 +119,9 @@ nav li:last-child:after
   margin-bottom: 10px;
   border-radius: 5px;
 }
+/*End of hero part*/
+
+/*Main article*/
 .sect-align
 {
   background-color: #ffbf80;
@@ -153,6 +163,10 @@ nav li:last-child:after
   padding-left: 20px;
   margin-top: 10px;  
 }
+/*End of the main article*/
+
+/*offer part*/
+
 .special-offer
 {
   background-color: #ffbf80;
@@ -206,6 +220,9 @@ nav li:last-child:after
   margin-top: 35%;
   
 }
+/*End of the offer part*/
+
+/*Sub-article part*/
 .sub-sect-align
 {
   background-color: #ffbf80;
@@ -289,6 +306,9 @@ nav li:last-child:after
  {
   content: none;
  }
+ /*End of the sub-article part*/
+
+ /*footer*/
 footer
 {
   background-color: #5c5c3d;
@@ -335,4 +355,4 @@ footer ul
 
 }
 
-
+/*End of the footer part*/
