@@ -1,9 +1,6 @@
 body
 {
   font-family: sans-serif;
-  /*background-image: url("../Images/backgndImage.jpg");
-  background-repeat: no-repeat;
-  background-position: left;*/
   background-color:  #ffdf80;
   margin-top: 0px;
   padding-top: 0px;
@@ -13,11 +10,10 @@ header
   background-color: #545445;
   position: fixed;
   height: 180px;
-  width:98.5%;
-  margin-left: 10px;
-  margin-top: 0px;
+  width:100%;
+  margin: 0px;
+  z-index: 1;
 }
-
 #header-logo
 {
   float: right;
@@ -28,7 +24,6 @@ header
   padding-top: 5%;
   padding-right: 4%;
 }
-
 section>h2
 {
    font-size: 30px;
@@ -56,7 +51,6 @@ section>h2
   text-align: center;
   margin:10px;
   border-radius: 7px;
-
 }
 #login-reg
 {
@@ -93,15 +87,13 @@ nav li a
   font-size: 18px;
   color: yellow;
   text-decoration: none;
-}
-  
+}  
 nav li a:hover
 {
   background-color: grey;
   font-size: 20px;
   color: white;  
 }
-
 nav li:after
 {
   padding-left: 2px;
@@ -119,7 +111,6 @@ nav li:last-child:after
   margin-left: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-
 }
 .sect-align
 {
@@ -139,8 +130,7 @@ nav li:last-child:after
   font-size: 22px;
   color:#1a3300;
   text-decoration: underline;
-  text-shadow: 2px 2px #b5ff66;
-  
+  text-shadow: 2px 2px #b5ff66;  
 }
 .sect-align h4
 {
@@ -150,8 +140,6 @@ nav li:last-child:after
   padding-left: 50px;
   margin-top: 10px;  
 }
-
-
 .sect-align img
 {
   width:120px;
@@ -180,7 +168,20 @@ nav li:last-child:after
   text-align: center; 
   font-size: 50px;
   color: black;
-  text-shadow:3px 3px  #80ffff;  
+  text-shadow:3px 3px  #80ffff; 
+  transform-style: none;
+}
+.blink
+{
+  animation: blink infinite 0.60s 1s;
+}
+@keyframes blink
+{
+  from
+   { opacity: 0;  }
+  to
+  {  opacity: 1;  }
+
 }
 #fig-left
 {
@@ -195,8 +196,9 @@ nav li:last-child:after
   width: 48%;
   height: 48%;
   margin-right: 25px;
+  margin-top: 10px;
 }
-.sect1-align
+.sub-sect-align
 {
   background-color: #ffbf80;
   border:1px solid #1f2e2e;
@@ -225,8 +227,6 @@ nav li:last-child:after
   padding-left: 50px;
   margin-top: 10px;  
 }
-
-
 .sub-sect-align img
 {
   width:120px;
@@ -239,7 +239,6 @@ nav li:last-child:after
   padding-left: 20px;
   margin-top: 10px;  
 }
-
  .grid-col-align
  {
   width: 300px;height: 252px;
