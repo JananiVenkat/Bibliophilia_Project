@@ -106,7 +106,7 @@ nav li:last-child:after
 #hero
 {
   width:100%;
-  height:500px;
+  height:600px;
   margin-top: 15%;
   margin-left: 0px;
   margin-bottom: 10px;
@@ -118,11 +118,11 @@ nav li:last-child:after
   border:1px solid #1f2e2e;
   border-radius: 8px;
   display: block;
-  margin-top: 20px;
+  margin-top: 40px;
   height: 450px;
   width: 940px;
-  margin-left: 10px;
-  margin: auto;
+  margin-left: 19.2%;
+  /*margin: auto;*/
 }
 .sect-align h3
 {
@@ -130,7 +130,8 @@ nav li:last-child:after
   font-size: 22px;
   color:#1a3300;
   text-decoration: underline;
-  text-shadow: 2px 2px #b5ff66;  
+  text-shadow: 2px 2px #b5ff66;
+  padding-top: 10px;  
 }
 .sect-align h4
 {
@@ -158,7 +159,7 @@ nav li:last-child:after
   border:1px solid #1f2e2e;
   border-radius: 8px;
   display: block;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: 19.2%;
   height: 450px;
   width: 940px;
@@ -198,13 +199,20 @@ nav li:last-child:after
   margin-right: 25px;
   margin-top: 10px;
 }
+#caption-align
+{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 35%;
+  
+}
 .sub-sect-align
 {
   background-color: #ffbf80;
   border:1px solid #1f2e2e;
   border-radius: 8px;
   display: block;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-left: 19.2%;
   height: 450px;
   width: 940px;
@@ -217,6 +225,7 @@ nav li:last-child:after
   color:#1a3300;
   text-decoration: underline;
   text-shadow: 2px 2px #b5ff66;
+  padding-top: 10px;
  
 }
 .sub-sect-align h4
@@ -288,7 +297,7 @@ footer
   margin-left: 10px;
   border-radius: 8px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 footer h3
 {
