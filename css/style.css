@@ -208,7 +208,7 @@ nav li:last-child:after
   width: 940px;
  
 }
-.sect1-align h3
+.sub-sect-align h3
 {
   text-align: center;
   font-size: 22px;
@@ -217,7 +217,7 @@ nav li:last-child:after
   text-shadow: 2px 2px #b5ff66;
  
 }
-.sect1-align h4
+.sub-sect-align h4
 {
   font-size: 18px;
   color: #4d1300;
@@ -227,14 +227,14 @@ nav li:last-child:after
 }
 
 
-.sect1-align img
+.sub-sect-align img
 {
   width:120px;
   height: 120px;
   margin-left: 75px;
   margin-top: 10px;
 }
-.sect1-align p
+.sub-sect-align p
 {
   padding-left: 20px;
   margin-top: 10px;  
